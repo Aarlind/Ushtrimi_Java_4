@@ -1,0 +1,927 @@
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.purple-div{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    background: blueviolet;
+}
+.header-div{
+    display: flex;
+    width: 100%;
+    height: 150px;
+}
+  .logo-div{
+    display: flex;
+    width: 48%;
+    height: 130px;
+    padding-top: 20px;
+} 
+img{
+    padding-left: 30%;
+}
+.menu-bar{
+    display: flex;
+    position: absolute;
+    margin-left: 49%;
+    padding-top: 20px;
+    width: 49%;
+    height: 130px;
+}
+.first-list{
+    
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    left: 45%;
+}
+.first-list li{
+    margin-right: 10px;
+}
+.first-list li:hover{
+    background-color: violet;
+}
+.h1-div{
+    position: absolute;
+    margin-top: 150px;
+    width: 100%;
+    height: 130px;
+    text-align: center;
+}
+#h1{
+    color: white;
+}
+#button{
+    background-color:orange;
+    color: white;
+    border-radius: 5px;
+    width: 119px;
+    height: 36px;
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 47.5%;
+    text-align: center;
+
+}
+/* DIVI I DYTE */
+.green-div{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background: rgb(59, 238, 178);
+}
+.h1-gdiv{
+    width: 100%;
+    height: 90px;
+    text-align: center;
+}
+#h1-1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    padding-bottom: 10px;
+    vertical-align: middle;
+    
+    
+}
+.h3-1-div{
+    position: absolute;
+    margin-top: 90px;
+    width: 100%;
+    text-align: center;
+}
+#h3-1{
+    color: white;
+}
+.elements-div{
+    display: flex;
+    position: absolute;
+    margin-top: 175px;
+    width: 100%;
+    height:270px
+}
+p{
+    padding-top: 150px;
+}
+.branding-div{
+    position: absolute;
+    margin-left: 1.5%;
+    display: flex;
+    width: 20%;
+    height: 270px;
+    text-align: center;
+}
+#h2-1{
+    position: absolute;
+    padding-top: 90px;
+    color: white;
+    padding-left: 31%;
+    
+}
+.logo1-div{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    
+}
+
+.flag-logo{
+    width: 80px;
+    height: 80px;
+    padding-left: 38%;
+}
+
+
+
+
+.design-div{
+    position: absolute;
+    display: flex;
+    margin-left: 26.5%;
+    width: 20%;
+    height: 270px;
+    text-align: center;
+}
+
+
+#h2-2{
+    position: absolute;
+    padding-top: 90px;
+    color: white;
+    margin-left: 38%;
+}
+.logo2-div{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+.pencil-logo{
+    width: 80px;
+    height: 80px;
+    padding-left: 38%;
+    
+}
+
+.development-div{
+    position: absolute;
+    display: flex;
+    margin-left: 51.5%;
+    width: 20%;
+    height: 270px;
+    text-align: center;
+}
+
+#h2-3{
+    position: absolute;
+    padding-top: 90px;
+    color: white;
+    padding-left: 30%;
+}
+.logo3-div{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+.settings-logo{
+    width: 80px;
+    height: 80px;
+    padding-left: 38%;
+    
+    
+    
+}
+
+.rocket-div{
+    position: absolute;
+    display: flex;
+    margin-left: 76.5%;
+    width: 20%;
+    height: 270px;
+    text-align: center;
+}
+#h2-4{
+    position: absolute;
+    padding-top: 90px;
+    color: white;
+    padding-left: 25%;
+}
+.logo4-div{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+.rocket-logo{
+    width: 80px;
+    height: 80px;
+    padding-left: 38%;
+    
+}
+/* DIVI I TRETE CSS */
+
+.silver-div{
+    display: flex;
+    width: 100%;
+    height: 550px;
+    background: silver;
+}
+.h1-sdiv{
+    width: 100%;
+    height: 90px;
+    text-align: center;
+}
+#h1-2{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    padding-bottom: 10px;
+    vertical-align: middle;
+    
+    
+}
+.h3-2-div{
+    position: absolute;
+    margin-top: 90px;
+    width: 100%;
+    text-align: center;
+}
+#h3-2{
+    color:black;
+}
+.designers-div{
+    display: flex;
+    position: absolute;
+    margin-top: 175px;
+    width: 100%;
+    height:370px
+}
+.paragraph{
+    padding-top: 250px;
+    
+}
+.annes-div{
+    position: absolute;
+    margin-left: 1.5%;
+    display: flex;
+    width: 20%;
+    height: 370px;
+    text-align: center;
+}
+#h2-5{
+    position: absolute;
+    padding-top: 190px;
+    padding-left: 23%;
+    
+}
+.img1-div{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+}
+
+.annes-photo{
+  width: 150px;  
+    
+}
+
+.kates-div{
+    position: absolute;
+    display: flex;
+    margin-left: 26.5%;
+    width: 20%;
+    height: 370px;
+    text-align: center;
+}
+
+
+#h2-6{
+    position: absolute;
+    padding-top: 190px;
+    margin-left: 31%;
+}
+.img2-div{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+}
+.kates-photo{
+    width: 150px;    
+}
+
+.olivias-div{
+    position: absolute;
+    display: flex;
+    margin-left: 51.5%;
+    width: 20%;
+    height: 370px;
+    text-align: center;
+}
+
+#h2-7{
+    position: absolute;
+    padding-top: 190px;
+    padding-left: 30%;
+}
+.img3-div{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+}
+.olivias-photo{
+  width: 150px;   
+}
+
+.ashleys-div{
+    
+    position: absolute;
+    display: flex;
+    margin-left: 76.5%;
+    width: 20%;
+    height: 370px;
+    text-align: center;
+}
+#h2-8{
+    position: absolute;
+    padding-top: 190px;
+    padding-left: 25%;
+}
+.img4-div{
+    position: absolute;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+.ashleys-photo{
+    width: 150px;
+}
+.social-div{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-top: 320px;
+    justify-content: space-evenly;
+
+}
+
+  .fa-facebook {
+    background: rgb(135, 140, 141);
+    color: white;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+.fa {
+    padding-top: 18px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa-instagram {  
+    background: rgb(135, 140, 141);  
+    color: white;  
+  }  
+  .fa-linkedin {  
+    background:rgb(135, 140, 141);  
+    color: white;  
+  } 
+  .fa-google {  
+    background:rgb(135, 140, 141);  
+    color: white;  
+  } 
+  .social-div2{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-top: 320px;
+    justify-content: space-evenly;
+
+}
+.social-div3{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-top: 320px;
+    justify-content: space-evenly;
+
+}
+.social-div4{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-top: 320px;
+    justify-content: space-evenly;
+
+}
+/* Divi i katert*/
+.white-div{
+    height: 500px;
+}
+.firstwhite-div{
+    height: 200px;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+.secondwhite-div{
+    display: flex;
+    height: 300px;
+    justify-content: space-evenly;
+}
+.whiteheader{    
+    align-items: center;
+    justify-content: center;
+}
+.whiteheader3{
+    margin-top: 45px;
+}
+.logodiv{
+    height: 100px;
+    width: 236px;
+}
+.logodiv2{
+    height: 100px;
+    width: 236px;
+}
+.logodiv3{
+    height: 100px;
+    width: 236px;
+}
+.logodiv4{
+    height: 100px;
+    width: 236px;
+}
+.indiv-header{
+    
+    margin-left: 64px;
+    margin-top: 28px;
+}
+.indiv-header2{
+    margin-left: 68px;
+    margin-top: 30px;
+}
+.foto90{
+    height: 100px;
+}
+.foto75{
+    height: 100px;
+}
+.indiv-header3{
+    margin-left: 33px;
+    margin-top: 30px;
+}
+.foto70{
+    height: 100px;
+}
+.indiv-header4{
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.foto85{
+    height: 100px;
+}
+/* DIVI I PESTE */
+.yellow-div{
+  
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    background: rgb(253, 210, 129);
+}
+.button2{    
+    position: absolute;
+    margin-top: 940px;
+    margin-left: 44.7%;
+    text-align: center;
+}
+#button2{
+    width: 200px;
+    height: 51px;
+    background-color: lightseagreen;
+    border-radius: 5%;
+    color: white;
+}
+
+
+.h1-ydiv{
+    position: absolute;
+    margin-top: 40px;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+.menu1-bar{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    margin-top: 150px;
+}
+.yparagraph{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 100px;
+}
+
+
+#yellowparagraph{
+    width: 100%;
+    height: 80px;
+    padding: 0;
+    
+}
+.listed-items{
+    
+    position: absolute;
+    display: flex;
+    margin-top: 200px;
+    width: 100%;
+    height: 40px;
+    
+}
+
+.second-list{
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+.second-list li{
+    width: 70px;
+    height: 23px;
+    background-color: rgb(204, 183, 92);
+    margin-left: 15px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 8%;
+}
+.second-list li:hover{
+    background-color: white;
+}
+
+.laptops-div{
+    position: absolute;
+    width: 100%;
+    height: 670px;
+    margin-top: 240px;
+    
+    
+}
+.flaptop-div{
+    position: absolute;
+    display: flex;
+    width: 30%;
+    height: 300px;
+    margin-left: 19%;
+    margin-top: 20px;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.slaptop-div{
+    position: absolute;
+    display: flex;
+    width: 30%;
+    height: 300px;
+    margin-left: 19%;
+    margin-top: 330px;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.thlaptop-div{
+    position: absolute;
+    display: flex;
+    width: 30%;
+    height: 300px;
+    margin-left: 51%;
+    margin-top: 20px;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.fthlaptop-div{
+    position: absolute;
+    display: flex;
+    width: 30%;
+    height: 300px;
+    margin-left: 51%;
+    margin-top: 330px;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.laptops-photo{
+    width: 90%;
+    height: 230px;
+    padding-left: 15px;
+    
+}
+.l1paragraph{
+    position: absolute;
+    padding-top: 280px;
+    text-align: center;
+    padding-left: 25%;
+}
+.l2paragraph{
+    position: absolute;
+    padding-top: 280px;
+    text-align: center;
+    padding-left: 30%;
+}
+.l3paragraph{
+    position: absolute;
+    padding-top: 280px;
+    text-align: center;
+    padding-left: 35%;
+}
+.l4paragraph{
+    position: absolute;
+    padding-top: 280px;
+    text-align: center;
+    padding-left: 30%;
+}
+
+
+
+/* Divi i gjashte */
+.pink-div{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 980px;
+    background-color:rgb(202, 62, 156) ;
+}
+.designerss-div{
+    display: flex;
+    position: absolute;
+    margin-top: 175px;
+    width: 100%;
+    height:800px
+}
+.paragraph{
+    padding-top: 250px;
+    
+}
+.chanel-div{
+    position: absolute;
+    margin-left: 20%;
+    display: flex;
+    width: 20%;
+    height: 370px;
+    text-align: center;
+}
+#h2-6-1{
+    position: absolute;
+    padding-top: 190px;
+    padding-left: 25%;
+    
+}
+.img1-6{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+}
+
+.chanel-photo{
+  width: 150px;  
+    
+    
+}
+
+.anneh-div{
+    position: absolute;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 390px;
+    width: 20%;
+    height: 370px;
+    text-align: center;
+}
+
+
+#h2-6-2{
+    position: absolute;
+    padding-top: 190px;
+    margin-left: 31%;
+}
+.img2-6{
+    position: absolute;  
+    display: flex;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+}
+.adriana-photo{
+    width: 150px;    
+}
+
+.adriana-div{
+    position: absolute;
+    display: flex;
+    margin-left: 60%;
+    width: 20%;
+    height: 370px;
+    text-align: center;
+}
+
+#h2-6-3{
+    position: absolute;
+    padding-top: 190px;
+    padding-left: 30%;
+}
+.img3-6{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+}
+.adriana-photo{
+  width: 150px;
+    
+    
+    
+}
+.h1-pdiv{
+    width: 100%;
+    height: 90px;
+    text-align: center;
+}
+#h1-6-1{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    padding-bottom: 10px;
+    vertical-align: middle;
+    
+    
+}
+.h3-6-1{
+    position: absolute;
+    margin-top: 90px;
+    width: 100%;
+    text-align: center;
+}
+#h3-6-1{
+    color:rgb(102, 12, 12);
+}
+
+
+.emma-div{
+    
+    position: absolute;
+    display: flex;
+    margin-left: 60%;
+    margin-top: 380px;
+    width: 20%;
+    height: 370px;
+    text-align: center;
+}
+#h2-6-4{
+    position: absolute;
+    padding-top: 190px;
+    padding-left: 25%;
+}
+.img4-6{
+    position: absolute;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+.emma-photo{
+    width: 150px;
+}
+
+/* Divi i shtate */
+.blue-div{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background: rgb(46, 69, 131)
+}
+
+.getin-div{
+   position: absolute;
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+.h1-7-1{
+    color: white;
+    padding: 0;
+    
+}
+.paragraph-7-1{
+    margin-top: 110px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+#paragraph-7-1{
+    color: white;
+    padding: 0;
+}
+.contact-div{
+    position:absolute;
+    margin-top: 210px;
+    width: 100%;
+    height: 450px;
+}
+.name-email-div{
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    margin-top: 10px;
+}
+.name-div{
+    position: absolute;
+    margin-left: 19%;
+    width: 30%;
+    height: 50px;
+}
+.email-div{
+    position: absolute;
+    margin-left: 51%;
+    width: 30%;
+    height: 50px;
+}
+.name-div input[type="name"]{
+    width: 100%;
+    height: 80%;
+    margin: 0;
+    background-color: rgb(27, 41, 80);
+    border-radius: 7px;
+    color: white;
+}
+.email-div input[type="email"]{
+    width: 100%;
+    height: 80%;
+    margin: 0;
+    background-color: rgb(27, 41, 80);
+    border-radius: 7px;
+    color: white;
+}
+
+.message-div{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    margin-top: 120px;
+}
+.message-div input[type="text"]{
+    margin: 0;
+    width: 62%;
+    height: 80%;
+    margin-left: 19%;
+    background-color: rgb(27, 41, 80);
+    border-radius: 7px;
+    color: white;
+}
+
+
+::placeholder{
+
+    color: white;
+}
+.button3{    
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 44.7%;
+    text-align: center;
+}
+#button3{
+    width: 200px;
+    height: 51px;
+    background-color: rgb(64, 184, 224);
+    border-radius: 5%;
+    color: white;
+}
+
+</style>
